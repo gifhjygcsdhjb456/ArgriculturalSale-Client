@@ -82,8 +82,8 @@
       // 获取一周天气
       getAWeekWeather() {
         getRequest({
-          appid: '71666199',
-          appsecret: '6FT2Kiq0',
+          appid: 'xxxxxx',//改成易客云上自己的appid
+          appsecret: 'xxxxxx',//改成易客云上自己的appsecret
           version: 'v91',
           city: this.address
         }).then(res => {
